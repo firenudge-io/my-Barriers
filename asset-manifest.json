@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/my-Barriers/static/css/main.e9f3c581.css",
+    "main.js": "/my-Barriers/static/js/main.bd789a25.js",
+    "index.html": "/my-Barriers/index.html",
+    "main.e9f3c581.css.map": "/my-Barriers/static/css/main.e9f3c581.css.map",
+    "main.bd789a25.js.map": "/my-Barriers/static/js/main.bd789a25.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e9f3c581.css",
+    "static/js/main.bd789a25.js"
+  ]
+}
