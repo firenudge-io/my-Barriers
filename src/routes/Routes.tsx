@@ -2,12 +2,10 @@ import { BrowserRouter, Route, Routes, } from "react-router-dom"
 import { ProjectNavbar } from "../components/ProjectNavbar"
 import { ProjectFooter } from "../components/ProjectFooter"
 import { Records } from "../pages/Records"
-import { Archives } from "../pages/Archives"
 
 const RouteItems = [
     { name: "Home", link: "/", element: <Records /> },
     { name: "Home", link: "/my-Barriers/", element: <Records /> },
-    { name: "Archives", link: "/my-Barriers/Archives", element: <Archives /> },
 ]
 
 

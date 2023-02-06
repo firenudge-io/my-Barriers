@@ -45,8 +45,6 @@ export const ProjectForm = () => {
     return (
         <form className="flex flex-col gap-4 z-0">
 
-            <h1>{tm}</h1>
-
             <div className="w-11/12 xl:w-3/4 mx-auto">
 
                 <div className="mt-4 mb-2 block">
