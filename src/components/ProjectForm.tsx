@@ -45,8 +45,6 @@ export const ProjectForm = () => {
     return (
         <form className="flex flex-col gap-4 z-0">
 
-            <h1>{tm}</h1>
-
             <div className="w-11/12 xl:w-3/4 mx-auto">
 
                 <div className="mt-4 mb-2 block">
@@ -107,12 +105,14 @@ export const ProjectForm = () => {
                 <div className="flex flex-row justify-around">
                     <a target={"_blank"} rel="noreferrer" href={UrlGenerate(date_read, time_read, b1, b2, b3, b4)}
                         className="my-5 inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">
-                        Save in Calendar
+                        Calendar
+                        <i className="fa-solid fa-arrow-up-right-from-square"></i>
                     </a>
 
                     <button onClick={insert_value}
                         className="my-5 inline-block px-6 py-2.5 bg-green-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-green-700 hover:shadow-lg focus:bg-green-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-green-800 active:shadow-lg transition duration-150 ease-in-out">
-                        Save in Sheets
+                        Sheets
+                        <i className="fa-regular fa-file"></i>
                     </button>
                 </div>
 

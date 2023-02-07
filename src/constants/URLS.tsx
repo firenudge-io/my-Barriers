@@ -1,2 +1,3 @@
 export const WriteURL = 'https://script.google.com/macros/s/AKfycbyW3C2Ihj4Ou42rfnP18S26x7BwogG1tGnETdQd_09UJ6GQxXxif79282cyeIFB40yf/exec'
 export const ReadURL = 'https://script.google.com/macros/s/AKfycbytaHtDwbrL4962Lrx5elqgrmx8INaczQ6EWBKW_9EpkHCLNYKy-FyRZprEArPqS7w/exec'
+export const FooterURL = 'https://script.google.com/macros/s/AKfycbxYWVhtLbQWqxB6rXkHGpnzqWlG72qNYztW5Upn8mFq_i1Sqrhkah-YbChnK_krAFqb/exec'
