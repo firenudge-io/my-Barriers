@@ -1,11 +1,16 @@
 import { BrowserRouter, Route, Routes, } from "react-router-dom"
 import { ProjectNavbar } from "../components/ProjectNavbar"
 import { ProjectFooter } from "../components/ProjectFooter"
-import { Records } from "../pages/Records"
+import { Analysis } from "../pages/Analysis"
+import { Situation } from "../pages/Situation"
+import { Classic } from "../pages/Classic"
 
 const RouteItems = [
-    { name: "Home", link: "/", element: <Records /> },
-    { name: "Home", link: "/my-Barriers/", element: <Records /> },
+    { name: "Home", link: "/", element: <Analysis /> },
+    { name: "Home", link: "/my-Barriers/", element: <Classic /> },
+    { name: "Home", link: "/my-Barriers/Analysis/", element: <Analysis /> },
+    { name: "Home", link: "/my-Barriers/Situation/", element: <Situation /> },
+    { name: "Home", link: "/my-Barriers/Classic/", element: <Classic /> },
 ]
 
 

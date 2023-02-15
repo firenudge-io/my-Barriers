@@ -1,11 +1,11 @@
 import { Card } from "flowbite-react"
-import { ProjectForm } from "../components/ProjectForm"
+import { FormAnalysis } from "../components/FormAnalysis"
 
-export const Records = () => {
+export const Analysis = () => {
     return (
         <div className="h-screen container mx-auto">
             <Card className="w-10/12 xl:w-2/3 mx-auto m-10">
-                <ProjectForm />
+                <FormAnalysis />
             </Card >
         </div >
     )
